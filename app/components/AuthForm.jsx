@@ -11,7 +11,7 @@ export default function AuthForm() {
       view="magic_link"
       showLinks={false}
       providers={[]}
-      redirectTo="https://watchlist-gamma.vercel.app/3000/auth/callback"
+      redirectTo="http://localhost:3000/auth/callback"
       appearance={{
         theme: "dark",
         button: {
